@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TripBoss</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+        
+    </head>
+    <body>
+        <!-- navbar  -->
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <div class = "container flex">
+                        <a href = "index.html" class = "site-brand">Trip<span>Boss</span></a>
+                      <button type="button" id="navbar-show-btn" class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div id="navbar-collapse" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Leave Your Footprints</h1>
+                    <p>Discover and book your perfect getaway with ease, choosing from thousands of stunning destinations worldwide</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Experience the vibrant culture and stunning beaches of Rio de Janeiro. Enjoy the breathtaking views from the iconic Sugarloaf Mountain.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text">Relax on the golden sands of North Bondi, a surfer's paradise. Explore the lively coastal culture and stunning ocean views.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Dive into Berlin's rich history and dynamic arts scene. Discover its vibrant nightlife and world-class museums.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Admire the beauty of the Wat Arun temple on Chao Phraya River. Explore the rich culture and traditional markets of Bangkok.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Walk through the ancient streets of Rome, where history meets modern charm. Savor authentic Italian cuisine and explore iconic landmarks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">Discover the untouched beauty of Fuvahmulah, a secluded island paradise. Dive into crystal-clear waters and explore vibrant coral reefs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Indulge in the height of luxury and style. Immerse yourself in exquisite comfort and elegance.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            Read More
+                          </button>
+                          
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Travel Guide</h3>
+                        <p class = "text">Discover new destinations with ease and insight. Navigate your journey with expert travel tips and guides.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            Read More
+                          </button>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Get the best value you can for your money with us. Find exceptional quality at a very affordable rate.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            Read More
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Brazil's vibrant culture and stunning landscapes are unforgettable. From lively festivals to breathtaking beaches, Brazil has it all. Experience the energy of Rio and the beauty of the Amazon.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Kevin Wilson</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">The Maldives offers unparalleled luxury and pristine beaches. Discover paradise with crystal-clear waters and overwater bungalows. A tropical haven with breathtaking coral reefs and serene sunsets.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ben Davis</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Thailand blends rich traditions with stunning natural beauty. Enjoy vibrant cities, serene temples, and gorgeous islands. From bustling markets to tranquil beaches, Thailand is a treasure.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Jaura Jones</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+     
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Trip<span>Boss</span>
+                    </a>
+                    <p class = "text">Find your perfect getaway with ease on TripBoss. Book your dream vacation with unbeatable deals. Enjoy effortless travel planning and exceptional service.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+</footer>
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Best Hotels</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Stay in style with our selection of luxurious hotels, offering world-class amenities and breathtaking views. Indulge in personalized services and opulent accommodations designed to provide a truly unforgettable experience. Relax in spacious rooms adorned with elegant decor, complete with state-of-the-art facilities and exquisite dining options. Rejuvenate at our exclusive spas, unwind by infinity pools, and enjoy VIP treatment at every step of your stay. Book a luxurious hotel through us and enjoy special perks like complimentary upgrades and late check-outs.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Best Tour Guides</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Navigate your dream destinations with ease using our comprehensive travel guides, crafted by local experts. Discover the best attractions, hidden gems, and local hotspots that make your journey truly memorable. Enjoy insider tips on the top restaurants, cultural experiences, and activities for every type of traveler. Plan your itinerary with confidence, knowing you have all the information you need for a smooth and enjoyable trip. Whether you’re seeking adventure or relaxation, our travel guides help you explore with purpose and passion.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Best Price</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Find the perfect balance between quality and affordability with our competitive pricing on hotels and travel packages. Enjoy exclusive discounts and deals tailored to your budget, without compromising on the quality of your experience. Get the best value for your money with our handpicked selections, offering exceptional services at reasonable rates. Save more with flexible booking options, allowing you to secure great prices while planning your dream vacation. Book confidently with our price match guarantee, ensuring you always get the most suitable rates for your travel needs.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <!-- end of footer -->
+        <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"
+      ></script>
+        <!-- js -->
+       
+    </body>
+</html>
